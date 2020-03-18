@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "**/*.inv": "toml",
+        "signal.h": "c"
+    }
+}
