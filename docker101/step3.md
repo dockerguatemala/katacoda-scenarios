@@ -1,4 +1,4 @@
-# Entrando a un contenedor que ya corria
+# Exec
 
 `docker run -d --name mynginx --rm nginx`{{execute}}
 
