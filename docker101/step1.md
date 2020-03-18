@@ -1,16 +1,16 @@
 # Comandos Basicos
 
-## help
+help
 
 `docker help`{{execute}}
 
 
-## run a hello-world
+correr un hello-world
 
 `docker run -d hello-world`{{execute}}
 
 
-## listing existing containers
+listando contenedores existentes
 
 `docker container ls`{{execute}}
 
@@ -20,9 +20,9 @@
 
 
 
-## run a shell
+run a shell
 
-### Ubuntu 18.04
+Ubuntu 18.04
 
 `docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
 
@@ -35,10 +35,10 @@ apt-get install -y wget
 ```{{execute}}
 
 
-### Centos 8
+Centos 8
 
 
-`docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
+`docker container run  --rm -it centos:8 bash`{{execute}}
 
 > install a Centos package
 
@@ -48,7 +48,9 @@ yum update
 yum install -y wget
 ```{{execute}}
 
-### Alpine 3.11
+
+
+Alpine 3.11
 
 `docker container run  --rm -it alpine:3.11 sh`{{execute}}
 
