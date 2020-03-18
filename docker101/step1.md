@@ -2,7 +2,7 @@
 
 ## help
 
-`docker help`{{copy}}
+`docker help`{{execute}}
 
 ## listing existing containers
 
@@ -16,7 +16,7 @@
 
 ## run a shell
 
-Ubuntu 18.04
+### Ubuntu 18.04
 
 `docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
 
@@ -26,10 +26,10 @@ Ubuntu 18.04
 curl
 apt-get update
 apt-get install -y curl
-```{{copy}}
+```{{execute}}
 
 
-Centos 8
+### Centos 8
 
 
 `docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
@@ -40,4 +40,12 @@ Centos 8
 curl
 yum update
 yum install -y curl
-```{{copy}}
+```{{execute}}
+
+### Alpine 3.11
+
+`docker container run  --rm -it alpine:3.11 sh`{{execute}}
+
+> ojo con `sh` alpine por default no trae bash (bourne again shell)
+
+
