@@ -4,6 +4,12 @@
 
 `docker help`{{execute}}
 
+
+## run a hello-world
+
+`docker run -d hello-world`{{execute}}
+
+
 ## listing existing containers
 
 `docker container ls`{{execute}}
@@ -23,9 +29,9 @@
 > install an Ubuntu package
 
 ```
-curl
+wget
 apt-get update
-apt-get install -y curl
+apt-get install -y wget
 ```{{execute}}
 
 
@@ -37,9 +43,9 @@ apt-get install -y curl
 > install a Centos package
 
 ```
-curl
+wget
 yum update
-yum install -y curl
+yum install -y wget
 ```{{execute}}
 
 ### Alpine 3.11
