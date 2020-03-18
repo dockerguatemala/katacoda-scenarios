@@ -2,7 +2,7 @@
 
 Corramos un nginx server
 
-`docker run -d --name mynginx --rm nginx:alpine`{{execute}}
+`docker run -d --name mynginx --rm nginx`{{execute}}
 
 
 
