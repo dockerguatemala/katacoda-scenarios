@@ -7,3 +7,6 @@
 
 
 Que comando ve en la columna de **COMMAND** ?
+
+
+este comando es importante mas adelante.

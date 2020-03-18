@@ -30,10 +30,13 @@ Ubuntu 18.04
 > install an Ubuntu package
 
 ```
-wget
+curl
 apt-get update -y
-apt-get install -y wget
+apt-get install -y curl
 
+curl google.com
+
+read "exit"
 exit
 ```{{execute}}
 
