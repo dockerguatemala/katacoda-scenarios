@@ -1,4 +1,4 @@
-# Puertos
+# Puertos expuestos
 
 Para especificar puertos
 
