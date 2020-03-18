@@ -9,6 +9,6 @@ Para especificar puertos
 Render port 8080: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
 
 
-EXPOSE si sirve :)
+EXPOSE en el Dockerfile si sirve :)
 
 `docker run -it -P nginx`{{execute}}
