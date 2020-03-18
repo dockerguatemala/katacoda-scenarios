@@ -5,6 +5,17 @@ Corramos de nuevo un nginx, con la salvedad que vamos a exponer el puerto 9090 e
 `docker run --name nginxexposed -d --rm -p 9090:80 nginx`{{execute}}
 
 
-TOP
+Top
 
 `docker top nginxexposed`{{execute}}
+
+
+Logs
+
+`docker logs nginxexposed`{{execute}}
+
+
+
+inspect
+
+`docker top inspect`{{execute}}

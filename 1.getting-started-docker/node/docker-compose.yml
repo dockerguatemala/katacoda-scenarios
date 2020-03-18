@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  stayathome:
+    image: stayathome
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000
