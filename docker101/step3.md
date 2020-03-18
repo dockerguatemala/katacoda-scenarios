@@ -1,11 +1,10 @@
-# Exec
+# Docker top, logs, inspect
 
-Corramos un nginx server
+Corramos de nuevo un nginx, con la salvedad que vamos a exponer el puerto 9090 en nuestro host hacia el puerto 80 dentro del contenedor
 
-`docker run -d --name mynginx --rm nginx`{{execute}}
+`docker run --name nginxexposed -d --rm -p 9090:80 nginx`{{execute}}
 
 
+TOP
 
-como ingresamos a un contenedor que ya estaba corriendo?
-
-`docker exec -it mynginx bash`{{execute}}
+`docker top nginxexposed`{{execute}}
