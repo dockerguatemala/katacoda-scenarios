@@ -6,7 +6,7 @@ help
 
 ---
 
-correr un hello-world
+### correr un hello-world
 
 `docker run -d hello-world`{{execute T1}}
 
@@ -21,7 +21,7 @@ listando contenedores existentes
 
 
 
-run a shell
+### Run a shell
 
 Ubuntu 18.04
 
