@@ -1,6 +1,6 @@
 # El comando que importa
 
-`docker container run -d nginx`{{execute}}
+`docker container run -d nginx:alpine`{{execute}}
 
 Mostremos el comando que esta corriendo
 
@@ -9,6 +9,6 @@ Mostremos el comando que esta corriendo
 
 Que comando ve en la columna de **COMMAND** ?
 
-> el contenedor va a continuar corriendo siempre y cuando ese comando corra!
+> el contenedor va a continuar corriendo mientras ese comando corra!
 
 este comando es importante mas adelante.
