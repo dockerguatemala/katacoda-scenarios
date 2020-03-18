@@ -2,30 +2,30 @@
 
 help
 
-`docker help`{{execute T1}}
+`docker help`{{execute}}
 
 ---
 
 ### correr un hello-world
 
-`docker run -d hello-world`{{execute T1}}
+`docker run -d hello-world`{{execute}}
 
 
 listando contenedores existentes
 
-`docker container ls`{{execute T1}}
+`docker container ls`{{execute}}
 
 > same as
 
-`docker container ps`{{execute T1}}
+`docker container ps`{{execute}}
 
 
-
+---
 ### Run a shell
 
 Ubuntu 18.04
 
-`docker container run  --rm -it ubuntu:18.04 bash`{{execute T1}}
+`docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
 
 > install an Ubuntu package
 
@@ -35,13 +35,13 @@ apt-get update -y
 apt-get install -y wget
 
 exit
-```{{execute T1}}
+```{{execute}}
 
 
 Centos 8
 
 
-`docker container run  --rm -it centos:8 bash`{{execute T1}}
+`docker container run  --rm -it centos:8 bash`{{execute}}
 
 > install a Centos package
 
@@ -50,13 +50,13 @@ wget
 yum install -y wget
 
 exit
-```{{execute T1}}
+```{{execute}}
 
 
 
 Alpine 3.11
 
-`docker container run  --rm -it alpine:3.11 sh`{{execute T1}}
+`docker container run  --rm -it alpine:3.11 sh`{{execute}}
 
 > ojo con `sh` alpine por default no trae bash (bourne again shell)
 

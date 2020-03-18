@@ -1,6 +1,9 @@
 # El comando que importa
 
-`docker container run -it nginx`{{execute T1}}
+`docker container run -d nginx`{{execute}}
 
 
-`docker container ps --no-trunc`{{execute T2}}
+`docker container ps --no-trunc`{{execute}}
+
+
+Que comando ve en la columna de **COMMAND** ?
