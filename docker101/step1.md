@@ -1,21 +1,43 @@
 # Comandos Basicos
 
+## help
+
+`docker help`{{copy}}
 
 ## listing existing containers
 
-```bash
+`docker container ls`{{execute}}
 
-docker container ls
+> same as
 
-# same as
+`docker container ps`{{execute}}
 
-docker container ps
-```
+
 
 ## run a shell
 
-```bash
+Ubuntu 18.04
 
-docker container run -it ubuntu:7
+`docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
+
+> install an Ubuntu package
 
 ```
+curl
+apt-get update
+apt-get install -y curl
+```{{copy}}
+
+
+Centos 8
+
+
+`docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
+
+> install a Centos package
+
+```
+curl
+yum update
+yum install -y curl
+```{{copy}}
