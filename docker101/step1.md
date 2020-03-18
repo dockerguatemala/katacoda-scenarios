@@ -30,8 +30,10 @@ Ubuntu 18.04
 
 ```
 wget
-apt-get update
+apt-get update -y
 apt-get install -y wget
+
+exit
 ```{{execute}}
 
 
@@ -44,8 +46,9 @@ Centos 8
 
 ```
 wget
-yum update
 yum install -y wget
+
+exit
 ```{{execute}}
 
 
