@@ -1,5 +1,6 @@
 #! MultiStage and Init 1 --init
-FROM alpine:latest as base
+# * base grande
+FROM alpine:3 as base
 RUN apk --no-cache add build-base
 
 FROM base as build

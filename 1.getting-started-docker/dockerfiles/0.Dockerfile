@@ -6,6 +6,6 @@ RUN apk add --update make
 
 RUN apk add --update gcc
 
-COPY . /app
+COPY . /app/
 
 RUN apk add --update python-dev

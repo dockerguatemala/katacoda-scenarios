@@ -20,8 +20,8 @@ void signal_handler(int signum){
 
 
 int main(){
-    //signal(SIGINT, signal_handler);
-    for(int i=0;i<10000000; i++ ){
+    signal(SIGINT, signal_handler);
+    for(int i=0;i<100000000; i++ ){
         printf("[%i] hello\n",i);
         sleep(1);
     }

@@ -1,4 +1,5 @@
 .PHONY: zero 0 one 1 all
+
 zero:
 	@docker build -t $@ -f 0.Dockerfile .
 	@printf "\n\n\n"

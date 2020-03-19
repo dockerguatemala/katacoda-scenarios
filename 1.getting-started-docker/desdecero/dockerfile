@@ -1,0 +1,17 @@
+FROM python:3.8
+
+
+RUN apt-get update
+RUN apt-get install -y make gcc
+# ADD vs COPY
+# ADD => tar.gz , urls
+COPY *.py /app/
+
+# * ENTRYPOINT vs CMD
+#! CMD puede ser sobreescrito
+ENTRYPOINT [ "python" ]
+
+#* ENTRYPOINT + CMD = python /app/app.py
+CMD [  "/app/app.py" ]
+
+
