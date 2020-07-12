@@ -1,9 +1,9 @@
 # Comenzando con Docker
 
-Docker Guatemala presenta este Webinar en respuesta a #stayathome #yomequedoencasa
+Kontinu y Docker Guatemala presenta este Bootcamp en respuesta a #stayathome #yomequedoencasa
 
 > "que no panda el cúnico" - Chapulin Colorado
 
 ## Slides
 
-Link para los [Slides](https://docs.google.com/presentation/d/1zbbFThp58R_aoV5cVrTG2slID5L1j83YY-FXvAqlRK4/edit?usp=sharing)
+Link para los [Slides](https://slides.com/marcoscano/deck-76e37f)
