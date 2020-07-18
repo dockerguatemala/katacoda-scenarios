@@ -21,13 +21,13 @@ listando contenedores existentes
 
 
 ---
-### Run a shell
+### Correr un contenedor que ejecute un Shell
 
 Ubuntu 18.04
 
 `docker container run  --rm -it ubuntu:18.04 bash`{{execute}}
 
-> install an Ubuntu package
+> instala un Ubuntu package
 
 ```
 curl
@@ -46,7 +46,7 @@ Centos 8
 
 `docker container run  --rm -it centos:8 bash`{{execute}}
 
-> install a Centos package
+> Instala un paquete de Centos
 
 ```
 wget
@@ -64,3 +64,4 @@ Alpine 3.11
 > ojo con `sh` alpine por default no trae bash (bourne again shell)
 
 
+Ves que facil podria ser usar Docker para aprender Linux?
